@@ -1,46 +1,19 @@
-const dasha = require("@dasha.ai/sdk");
 const fs = require("fs");
+const dasha = require("@dasha.ai/sdk");
 const axios = require("axios").default;
 
 
 async function main() {
   const app = await dasha.deploy("./app");
-
-
-
-  // external functions begin 
-  // external functions are called from your Dasha conversation in the body of main.dsl file 
-  // external functions can be used for calculations, data storage, in this case, to 
-  // call external services with HTTPS requests. You can call an external function from DSL
-  // in your node.js file and have it do literally anything you can do with Node.js.
-
-  // External function confirm fave fruit 
-
   app.setExternal("confirm", async(args, conv) => {
       console.log("collected signal is " + args.signal);
-
-      
-
     if (args.signal == "Maverick")
       return true;
     else 
       return false; 
   });
 
-  // External function check status 
-  app.setExternal("status", async(args, conv) => {
-
-    const res = await axios.post( "C:\Users\andy\Desktop\dasha_ai\HTTPS-call-with-dasha-demo");
-    console.log(" JSON data from API ==>", res.data);
-
-    const receivedFruit = res.data.favoriteSignal;
-    console.log("status is  ==>", res.data.status);
-
-    if (res.data.status = "approved")
-    return("Congratulations Maverick, welcome to RAW"); 
-    else 
-    return("Goodbye");
-});
+  
 
   await app.start();
 
@@ -84,3 +57,4 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
