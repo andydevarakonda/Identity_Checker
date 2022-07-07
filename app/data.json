@@ -5,12 +5,8 @@
     "yes": {
       "includes": [
         "yes",
-        "correct",
-        "sure",
         "yep",
-        "I confirm",
-        "confirmed",
-        "I do",
+        "sure",
         "yeah",
         "that's right"
       ],
@@ -21,9 +17,7 @@
         "no",
         "definitely not",
         "wrong",
-        "no, that's it, thank you",
         "no thank you!",
-        "incorrect",
         "I do not",
         "I don't"
       ]
@@ -44,11 +38,7 @@
     "wait": {
       "includes": [
         "Hold on for a minute",
-        "Wait please",
-        "Give me a second ",
-        "Give me a minute",
-        "Hold on",
-        "Hold on I need to have a look",
+        "Hold",
         "Hold the line",
         "Wait please"
       ],
@@ -59,10 +49,7 @@
 
     "repeat": {
       "includes": [
-        "Can you repeat please",
-        "Sorry, could you say it again",
-        "I didn't hear you ",
-        "I couldn't hear what you said",
+        "Can you repeat",
         "Can you repeat please? ",
         "Please repeat it"
       ]
