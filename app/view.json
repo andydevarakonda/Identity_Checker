@@ -1,0 +1,92 @@
+{
+  "node::acknowledge": {
+    "common.position": {
+      "x": -1.4520754804524614,
+      "y": 545.6086788600917
+    }
+  },
+  "node::resolve": {
+    "common.position": {
+      "x": -1.645631560840197,
+      "y": -1.469560115804848
+    }
+  },
+  "node::ignore": {
+    "common.position": {
+      "x": -4.0633998682238825,
+      "y": 335.46641537447874
+    }
+  },
+  "node::journal": {
+    "common.position": {
+      "x": 0,
+      "y": 795.5
+    }
+  },
+  "node::status": {
+    "common.position": {
+      "x": 0,
+      "y": 941.5
+    }
+  },
+  "node::wait": {
+    "common.position": {
+      "x": 0,
+      "y": 1087.5
+    }
+  },
+  "node::repeat": {
+    "common.position": {
+      "x": 0,
+      "y": 1233.5
+    }
+  },
+  "node::oops": {
+    "common.position": {
+      "x": 0,
+      "y": 1379.5
+    }
+  },
+  "node::root": {
+    "common.position": {
+      "x": 0,
+      "y": 1545.5
+    }
+  },
+  "node::hello": {
+    "common.position": {
+      "x": 600,
+      "y": 1545.5
+    }
+  },
+  "node::acknowledge_2": {
+    "common.position": {
+      "x": 600,
+      "y": 635.1245288271476
+    }
+  },
+  "node::notify": {
+    "common.position": {
+      "x": 1200,
+      "y": 726.9535855534822
+    }
+  },
+  "node::resolve_2": {
+    "common.position": {
+      "x": 1200,
+      "y": 53
+    }
+  },
+  "node::ignore_2": {
+    "common.position": {
+      "x": 1200,
+      "y": 199
+    }
+  },
+  "node::waiting": {
+    "common.position": {
+      "x": 1200,
+      "y": 423.5
+    }
+  }
+}

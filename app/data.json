@@ -1,0 +1,129 @@
+{
+  "version": "v2",
+  "intents": 
+  {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "yep",
+        "I confirm",
+        "confirmed",
+        "I do",
+        "yeah",
+        "that's right"
+      ],
+      "excludes": []
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "no, that's it, thank you",
+        "no thank you!",
+        "incorrect",
+        "I do not",
+        "I don't"
+      ]
+    },
+    
+    "status": {
+      "includes": [
+        "He was an introvert that extroverts seemed to love.",
+        "Nothing is as cautiously cuddly as a pet porcupine.",
+        "Imagine his surprise when he discovered that the safe was full of pudding.",
+        "She did her best to help him.",
+        "The toddler’s endless tantrum caused the entire plane anxiety."
+        
+
+      ]
+    },
+
+    "wait": {
+      "includes": [
+        "Hold on for a minute",
+        "Wait please",
+        "Give me a second ",
+        "Give me a minute",
+        "Hold on",
+        "Hold on I need to have a look",
+        "Hold the line",
+        "Wait please"
+      ],
+      "excludes": [
+        "Hello"
+      ]
+    }, 
+
+    "repeat": {
+      "includes": [
+        "Can you repeat please",
+        "Sorry, could you say it again",
+        "I didn't hear you ",
+        "I couldn't hear what you said",
+        "Can you repeat please? ",
+        "Please repeat it"
+      ]
+    }
+
+
+  },
+
+
+  "entities": {
+    "signal": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "charger",
+          "synonyms": [
+            "charger","chargers", "charged", "charge"
+          ]
+        },
+        {
+          "value": "road runner",
+          "synonyms": [
+            "road runner", "rd runner", "roadrunner"
+          ]
+        },
+        {
+          "value": "Maverick",
+          "synonyms": [
+            "Maverick","Mav", "Mverick", "Mavs"
+
+          ]
+        },
+        {
+          "value": "Payback",
+          "synonyms": [
+            "Payback","pay back", "back pay"
+
+          ]
+        },
+        {
+          "value": "Rooster",
+          "synonyms": [
+            "Rooster","Roosters", "Rooster Hen"
+          ]
+        },
+        {
+          "value": "apple",
+          "synonyms": [
+            "apple", "apples"
+          ]
+        }
+      ],
+      "includes": [
+        "I do love to get (charger)[signal]",
+        "I am a (Maverick)[signal]",
+        "I want to get (Payback)[signal] for my Friend's death",
+        "I would eat (apple)[signal] every day until the doctor gives me a cramp",
+        "Ah, what a question. (Rooster)[signal] of course",
+        "I like (Maverick)[signal] best of all"
+
+      ]
+    }
+  }
+}

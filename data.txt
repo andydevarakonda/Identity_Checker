@@ -1,0 +1,10 @@
+  {
+    "_id": "616f8a50856c6dd7d85f2597",
+    "name": "Anirudh Devarakonda",
+    "company": "Indian RAW",
+    "email": "dvsanirudh@gmail.com",
+    "phone": "+1 (619) 389 7343",
+    "address": "367 Cooke Court, Dunbar, Palau, 5119",
+    "favoriteSignal": "Maverick",
+    "status": "approved"
+  }

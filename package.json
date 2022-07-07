@@ -1,0 +1,14 @@
+{
+  "name": "https-call-test",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  },
+  "dependencies": {
+    "@dasha.ai/sdk": "^0.6.5",
+    "axios": "^0.21.1"
+  }
+}
