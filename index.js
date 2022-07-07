@@ -19,13 +19,9 @@ async function main() {
   app.setExternal("confirm", async(args, conv) => {
       console.log("collected signal is " + args.signal);
 
-      const res = await axios.post( "C:\Users\andy\Desktop\dasha_ai\HTTPS-call-with-dasha-demo\data.txt");
-      console.log(" JSON data from API ==>", res.data);
+      
 
-      const receivedSignal = res.data.favoriteSignal;
-      console.log("signal is  ==>", receivedSignal);
-
-    if (args.signal == receivedSignal)
+    if (args.signal == "Maverick")
       return true;
     else 
       return false; 
